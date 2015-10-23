@@ -1,0 +1,158 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/wuguanghai/.nvm/v4.1.1/bin/node',
+1 verbose cli   '/home/wuguanghai/.nvm/v4.1.1/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/wuguanghai/.nvm/v4.1.1/lib/node_modules/snpm',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/wuguanghai/.npm/cnpm/3.2.2/package.tgz not in flight; packing
+9 verbose tar pack [ '/home/wuguanghai/.npm/cnpm/3.2.2/package.tgz',
+9 verbose tar pack   '/home/wuguanghai/.nvm/v4.1.1/lib/node_modules/snpm' ]
+10 verbose tarball /home/wuguanghai/.npm/cnpm/3.2.2/package.tgz
+11 verbose folder /home/wuguanghai/.nvm/v4.1.1/lib/node_modules/snpm
+12 info prepublish cnpm@3.2.2
+13 verbose addLocalTarball adding from inside cache /home/wuguanghai/.npm/cnpm/3.2.2/package.tgz
+14 silly cache afterAdd cnpm@3.2.2
+15 verbose afterAdd /home/wuguanghai/.npm/cnpm/3.2.2/package/package.json not in flight; writing
+16 verbose afterAdd /home/wuguanghai/.npm/cnpm/3.2.2/package/package.json written
+17 silly publish { name: 'cnpm',
+17 silly publish   version: '3.2.2',
+17 silly publish   description: 'cnpm: npm client for cnpmjs.org',
+17 silly publish   main: 'bin/cnpm',
+17 silly publish   scripts:
+17 silly publish    { test: 'mocha test/*.test.js --timeout 60000',
+17 silly publish      cnpm: 'npm i --registry=http://registry.npm.taobao.org' },
+17 silly publish   preferGlobal: true,
+17 silly publish   bin:
+17 silly publish    { cnpm: './bin/cnpm',
+17 silly publish      'cnpm-check': './bin/cnpm-check',
+17 silly publish      'cnpm-sync': './bin/cnpm-sync',
+17 silly publish      'cnpm-web': './bin/cnpm-web',
+17 silly publish      'cnpm-user': './bin/cnpm-user',
+17 silly publish      'cnpm-doc': './bin/cnpm-doc',
+17 silly publish      'cnpm-search': './bin/cnpm-search' },
+17 silly publish   dependencies:
+17 silly publish    { 'auto-correct': '~1.0.0',
+17 silly publish      bagpipe: '~0.3.5',
+17 silly publish      colors: '~1.0.3',
+17 silly publish      commander: '~2.7.1',
+17 silly publish      'cross-spawn': '~0.2.8',
+17 silly publish      debug: '~2.2.0',
+17 silly publish      giturl: '~0.0.3',
+17 silly publish      npm: '~2.14.2',
+17 silly publish      'npm-request': '~0.0.4',
+17 silly publish      open: '~0.0.5',
+17 silly publish      'node-gyp': '~3.0.1',
+17 silly publish      urllib: '~2.4.0' },
+17 silly publish   devDependencies:
+17 silly publish    { autod: '*',
+17 silly publish      'fs-extra': '0',
+17 silly publish      jshint: '2',
+17 silly publish      mocha: '2',
+17 silly publish      should: '5' },
+17 silly publish   homepage: 'https://github.com/cnpm/cnpm',
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'git://github.com/cnpm/cnpm.git',
+17 silly publish      web: 'https://github.com/cnpm/cnpm' },
+17 silly publish   bugs:
+17 silly publish    { url: 'https://github.com/cnpm/cnpm/issues',
+17 silly publish      email: 'm@fengmk2.com' },
+17 silly publish   keywords: [ 'cnpm' ],
+17 silly publish   engines: { node: '>= 0.10.0' },
+17 silly publish   author:
+17 silly publish    { name: 'fengmk2',
+17 silly publish      email: 'm@fengmk2.com',
+17 silly publish      url: 'http://fengmk2.com' },
+17 silly publish   license: 'MIT',
+17 silly publish   contributors:
+17 silly publish    [ { name: 'fengmk2',
+17 silly publish        email: 'fengmk2@gmail.com',
+17 silly publish        url: 'https://github.com/fengmk2' },
+17 silly publish      { name: 'dead_horse',
+17 silly publish        email: 'dead_horse@qq.com',
+17 silly publish        url: 'https://github.com/dead-horse' },
+17 silly publish      { name: 'Jakukyo Friel',
+17 silly publish        email: 'weakish@gmail.com',
+17 silly publish        url: 'https://github.com/weakish' },
+17 silly publish      { name: 'Zhonglei Qiu',
+17 silly publish        email: 'zhongleiqiu@gmail.com',
+17 silly publish        url: 'https://github.com/qiu8310' },
+17 silly publish      { name: 'popomore',
+17 silly publish        email: 'sakura9515@gmail.com',
+17 silly publish        url: 'https://github.com/popomore' } ],
+17 silly publish   gitHead: '3a1d56deddd09d2efd41bd69d95158334133e7ab',
+17 silly publish   _id: 'cnpm@3.2.2',
+17 silly publish   _shasum: 'ac56cfbd1e5ea11518e477d5b06015fbc8b65731',
+17 silly publish   _from: '.',
+17 silly publish   _npmVersion: '2.14.2',
+17 silly publish   _nodeVersion: '4.0.0',
+17 silly publish   _npmUser: { name: 'fengmk2', email: 'fengmk2@gmail.com' },
+17 silly publish   maintainers:
+17 silly publish    [ { name: 'fengmk2', email: 'fengmk2@gmail.com' },
+17 silly publish      { name: 'dead_horse', email: 'dead_horse@qq.com' } ],
+17 silly publish   dist:
+17 silly publish    { shasum: 'e5d3330e85b7071506c3a163137f640d8c35ebf9',
+17 silly publish      tarball: 'http://registry.npmjs.org/cnpm/-/cnpm-3.2.2.tgz' },
+17 silly publish   directories: {},
+17 silly publish   _resolved: 'https://registry.npmjs.org/cnpm/-/cnpm-3.2.2.tgz',
+17 silly publish   readme: 'ERROR: No README data found!' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name cnpm
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/cnpm
+23 verbose publish registryBase https://registry.npmjs.org/
+24 silly publish uploading /home/wuguanghai/.npm/cnpm/3.2.2/package.tgz
+25 verbose request uri https://registry.npmjs.org/cnpm
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 09:28:20
+28 verbose request using bearer token for auth
+29 verbose request id fe56847fabcbbd27
+30 http request PUT https://registry.npmjs.org/cnpm
+31 http 403 https://registry.npmjs.org/cnpm
+32 verbose headers { 'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=60',
+32 verbose headers   'content-length': '96',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Fri, 23 Oct 2015 01:28:21 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-nrt6120-NRT',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1445563700.775636,VS0,VE540' }
+33 verbose request invalidating /home/wuguanghai/.npm/registry.npmjs.org/cnpm on PUT
+34 error publish Failed PUT 403
+35 verbose stack Error: You do not have permission to publish 'cnpm'. Are you logged in as the correct user? : cnpm
+35 verbose stack     at makeError (/home/wuguanghai/.nvm/v4.1.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:263:12)
+35 verbose stack     at CachingRegistryClient.<anonymous> (/home/wuguanghai/.nvm/v4.1.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:251:14)
+35 verbose stack     at Request._callback (/home/wuguanghai/.nvm/v4.1.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:171:14)
+35 verbose stack     at Request.self.callback (/home/wuguanghai/.nvm/v4.1.1/lib/node_modules/npm/node_modules/request/request.js:198:22)
+35 verbose stack     at emitTwo (events.js:87:13)
+35 verbose stack     at Request.emit (events.js:172:7)
+35 verbose stack     at Request.<anonymous> (/home/wuguanghai/.nvm/v4.1.1/lib/node_modules/npm/node_modules/request/request.js:1073:14)
+35 verbose stack     at emitOne (events.js:82:20)
+35 verbose stack     at Request.emit (events.js:169:7)
+35 verbose stack     at IncomingMessage.<anonymous> (/home/wuguanghai/.nvm/v4.1.1/lib/node_modules/npm/node_modules/request/request.js:1019:12)
+36 verbose statusCode 403
+37 verbose pkgid cnpm
+38 verbose cwd /home/wuguanghai/.nvm/v4.1.1/lib/node_modules/snpm
+39 error Linux 3.19.0-30-generic
+40 error argv "/home/wuguanghai/.nvm/v4.1.1/bin/node" "/home/wuguanghai/.nvm/v4.1.1/bin/npm" "publish"
+41 error node v4.1.1
+42 error npm  v2.14.4
+43 error code E403
+44 error You do not have permission to publish 'cnpm'. Are you logged in as the correct user? : cnpm
+45 error If you need help, you may report this error at:
+45 error     <https://github.com/npm/npm/issues>
+46 verbose exit [ 1, true ]
