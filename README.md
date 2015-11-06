@@ -1,69 +1,22 @@
-cnpm
+snpm
 =======
-
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![appveyor build status][appveyor-image]][appveyor-url]
-[![Gittip][gittip-image]][gittip-url]
-[![David deps][david-image]][david-url]
-
-[npm-image]: https://img.shields.io/npm/v/cnpm.svg?style=flat
-[npm-url]: https://npmjs.org/package/cnpm
-[travis-image]: https://img.shields.io/travis/cnpm/cnpm.svg?style=flat
-[travis-url]: https://travis-ci.org/cnpm/cnpm
-[appveyor-image]: https://ci.appveyor.com/api/projects/status/17kfr8eitdi7rljr?svg=true
-[appveyor-url]: https://ci.appveyor.com/project/fengmk2/urllib
-[gittip-image]: https://img.shields.io/gittip/fengmk2.svg?style=flat
-[gittip-url]: https://www.gittip.com/fengmk2/
-[david-image]: https://img.shields.io/david/cnpm/cnpm.svg?style=flat
-[david-url]: https://david-dm.org/cnpm/cnpm
-
-![logo](https://raw.github.com/cnpm/cnpmjs.org/master/logo.png)
-
-cnpm: npm client for [cnpmjs.org](http://cnpmjs.org)
+更改cnpm install 使它能适配spm install
 
 ## Install
 
 ```bash
-$ npm install cnpm -g
+git clone https://github.com/wuguanghai45/snpm.git
 ```
-
-If you're in China, maybe you should install it from our [China mirror](https://npm.taobao.org):
-
+创建软连接到到node目录下
+命令参考
 ```bash
-$ npm install cnpm -g --registry=https://registry.npm.taobao.org
+ln -s /Users/admin/rails/snpm/bin/cnpm /Users/admin/.nvm/versions/node/v5.0.0/bin/snpm
 ```
 
 ## Usage
-
-Support all commands just like `npm`.
-
-### Sync packages from `npm`
-
+cd 到spm package.json 目录下
+!注意 snpm install 是根据npm dependencies 进行下载
 ```bash
-$ cnpm sync [moduleName]
+snpm install
 ```
 
-### Open package document or git web url
-
-```bash
-$ cnpm doc [name]
-$ cnpm doc -g [name] # open git web url directly
-```
-
-## Build your own private registry npm cli
-
-```bash
-$ npm install cnpm -g
-
-# then alias it
-$ alias mynpm='cnpm --registry=http://registry.npm.example.com \
- --disturl=http://npm.example.com/dist \
- --registryweb=http://npm.example.com \
- --cache=$HOME/.mynpm/.cache \
- --userconfig=$HOME/.mynpmrc'
-```
-
-## License
-
-[MIT](LICENSE.txt)
