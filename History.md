@@ -1,4 +1,27 @@
 
+3.4.0 / 2015-11-12
+==================
+
+ * feat: add --proxy support
+
+3.3.1 / 2015-11-09
+==================
+
+  * update `giturl` to 1.0.0
+
+3.3.0 / 2015-11-02
+==================
+
+ * test: add node v5
+ * feat: install node-sass from China mirror
+
+3.2.3 / 2015-10-05
+==================
+
+ * fix: ignore --disturl and --userconfig=none
+ * test: appveyor test node v4
+ * fix: install chromedriver from oss directly
+
 3.2.2 / 2015-09-11
 ==================
 

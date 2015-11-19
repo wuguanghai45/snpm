@@ -1,65 +1,55 @@
 {
-  "name": "cnpm",
-  "version": "3.2.2",
-  "description": "cnpm: npm client for cnpmjs.org",
-  "main": "bin/cnpm",
-  "scripts": {
-    "test": "mocha test/*.test.js --timeout 60000",
-    "cnpm": "npm i --registry=http://registry.npm.taobao.org"
+  "_args": [
+    [
+      "cnpm",
+      ""
+    ]
+  ],
+  "_from": "cnpm@*",
+  "_id": "cnpm@3.4.0",
+  "_inCache": true,
+  "_location": "/cnpm",
+  "_nodeVersion": "4.2.1",
+  "_npmUser": {
+    "email": "fengmk2@gmail.com",
+    "name": "fengmk2"
   },
-  "preferGlobal": true,
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cnpm",
+    "raw": "cnpm",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cnpm/-/cnpm-3.4.0.tgz",
+  "_shasum": "3da6f1891e34ad5ea74cc16d32e072dc76059f91",
+  "_shrinkwrap": null,
+  "_spec": "cnpm",
+  "_where": "",
+  "author": {
+    "email": "m@fengmk2.com",
+    "name": "fengmk2",
+    "url": "http://fengmk2.com"
+  },
   "bin": {
     "cnpm": "./bin/cnpm",
     "cnpm-check": "./bin/cnpm-check",
-    "cnpm-sync": "./bin/cnpm-sync",
-    "cnpm-web": "./bin/cnpm-web",
-    "cnpm-user": "./bin/cnpm-user",
     "cnpm-doc": "./bin/cnpm-doc",
-    "cnpm-search": "./bin/cnpm-search"
-  },
-  "dependencies": {
-    "auto-correct": "~1.0.0",
-    "bagpipe": "~0.3.5",
-    "colors": "~1.0.3",
-    "commander": "~2.7.1",
-    "cross-spawn": "~0.2.8",
-    "debug": "~2.2.0",
-    "giturl": "~0.0.3",
-    "npm": "~2.14.2",
-    "npm-request": "~0.0.4",
-    "open": "~0.0.5",
-    "node-gyp": "~3.0.1",
-    "urllib": "~2.4.0"
-  },
-  "devDependencies": {
-    "autod": "*",
-    "fs-extra": "0",
-    "jshint": "2",
-    "mocha": "2",
-    "should": "5"
-  },
-  "homepage": "https://github.com/cnpm/cnpm",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/cnpm/cnpm.git",
-    "web": "https://github.com/cnpm/cnpm"
+    "cnpm-search": "./bin/cnpm-search",
+    "cnpm-sync": "./bin/cnpm-sync",
+    "cnpm-user": "./bin/cnpm-user",
+    "cnpm-web": "./bin/cnpm-web"
   },
   "bugs": {
-    "url": "https://github.com/cnpm/cnpm/issues",
-    "email": "m@fengmk2.com"
-  },
-  "keywords": [
-    "cnpm"
-  ],
-  "engines": {
-    "node": ">= 0.10.0"
-  },
-  "author": {
-    "name": "fengmk2",
     "email": "m@fengmk2.com",
-    "url": "http://fengmk2.com"
+    "url": "https://github.com/cnpm/cnpm/issues"
   },
-  "license": "MIT",
   "contributors": [
     {
       "name": "fengmk2",
@@ -85,18 +75,51 @@
       "name": "popomore",
       "email": "sakura9515@gmail.com",
       "url": "https://github.com/popomore"
+    },
+    {
+      "name": "alsotang",
+      "email": "alsotang@gmail.com",
+      "url": "https://github.com/alsotang"
     }
   ],
-  "gitHead": "3a1d56deddd09d2efd41bd69d95158334133e7ab",
-  "_id": "cnpm@3.2.2",
-  "_shasum": "e5d3330e85b7071506c3a163137f640d8c35ebf9",
-  "_from": "cnpm@*",
-  "_npmVersion": "2.14.2",
-  "_nodeVersion": "4.0.0",
-  "_npmUser": {
-    "name": "fengmk2",
-    "email": "fengmk2@gmail.com"
+  "dependencies": {
+    "auto-correct": "~1.0.0",
+    "bagpipe": "~0.3.5",
+    "colors": "~1.0.3",
+    "commander": "~2.7.1",
+    "cross-spawn": "~0.2.8",
+    "debug": "^2.2.0",
+    "giturl": "~1.0.0",
+    "node-gyp": "~3.0.3",
+    "npm": "~2.14.2",
+    "npm-request": "~0.0.4",
+    "open": "~0.0.5",
+    "urllib": "^2.5.0"
   },
+  "description": "cnpm: npm client for cnpmjs.org",
+  "devDependencies": {
+    "autod": "*",
+    "fs-extra": "0",
+    "jshint": "2",
+    "mocha": "2",
+    "should": "5"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "3da6f1891e34ad5ea74cc16d32e072dc76059f91",
+    "tarball": "http://registry.npmjs.org/cnpm/-/cnpm-3.4.0.tgz"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "gitHead": "41e03ea35093c830076e75e62e346121103b288b",
+  "homepage": "https://github.com/cnpm/cnpm",
+  "installable": true,
+  "keywords": [
+    "cnpm"
+  ],
+  "license": "MIT",
+  "main": "bin/cnpm",
   "maintainers": [
     {
       "name": "fengmk2",
@@ -107,11 +130,17 @@
       "email": "dead_horse@qq.com"
     }
   ],
-  "dist": {
-    "shasum": "e5d3330e85b7071506c3a163137f640d8c35ebf9",
-    "tarball": "http://registry.npmjs.org/cnpm/-/cnpm-3.2.2.tgz"
+  "name": "cnpm",
+  "optionalDependencies": {},
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cnpm/cnpm.git",
+    "web": "https://github.com/cnpm/cnpm"
   },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/cnpm/-/cnpm-3.2.2.tgz",
-  "readme": "ERROR: No README data found!"
+  "scripts": {
+    "cnpm": "npm i --registry=http://registry.npm.taobao.org",
+    "test": "mocha test/*.test.js --timeout 600000"
+  },
+  "version": "3.4.0"
 }
